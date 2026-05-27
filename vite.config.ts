@@ -31,7 +31,7 @@ export default defineConfig(({ mode }) => {
             { src: 'maskable-icon-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
           ],
         },
-        devOptions: { enabled: true },
+        devOptions: { enabled: false },
         workbox: {
           // 預快取 app shell（JS、CSS、HTML、SVG），排除 preset 大圖
           globPatterns: ['**/*.{js,css,html,svg,woff2}'],
