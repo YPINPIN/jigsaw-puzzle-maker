@@ -23,6 +23,22 @@
 
 ---
 
+## 🤖 開發方式說明
+
+本專案為 **AI-assisted development** 練習專案，主要使用 Claude Code Pro 的 Plan Mode 協助完成程式實作。
+
+我在專案中的主要角色包含：
+
+- 定義產品需求與功能方向
+- 測試拼圖生成、拖曳、吸附、合組、存檔、PWA 等功能行為
+- 回報畫面與互動問題，並與 AI 討論修正方案
+- 閱讀並理解核心模組的運作方式
+- 針對 Canvas Path2D、拼圖片邊緣方向、拖曳互動、狀態保存與 PWA 快取流程進行 debug 與驗收
+
+本專案是一次 AI 輔助開發流程的實作練習，重點在於需求拆解、功能驗收、debug 分析與理解前端專案架構，並非傳統意義上的完全手寫作品。
+
+---
+
 ## 🎮 遊戲特色
 
 ### 🖼️ 圖片來源
@@ -100,20 +116,20 @@
 
 ## 🛠️ Tech Stack
 
-| 技術                                                 | 說明           |
-| ---------------------------------------------------- | -------------- |
-| [React 19](https://react.dev/)                       | UI 框架        |
-| [TypeScript](https://www.typescriptlang.org/)        | 靜態型別       |
-| [Vite 8](https://vite.dev/)                          | 建置工具       |
-| [Redux Toolkit](https://redux-toolkit.js.org/)       | 全域狀態管理   |
-| [React Router v7](https://reactrouter.com/)          | 客戶端路由     |
-| [Tailwind CSS v4](https://tailwindcss.com/)          | 樣式框架       |
-| [Google Fonts](https://fonts.google.com/)            | 字型（Nunito + Noto Sans TC） |
-| [lz-string](https://github.com/pieroxy/lz-string)    | 分享代碼壓縮   |
-| [vite-plugin-pwa](https://vite-pwa-org.netlify.app/) | PWA / 離線支援 |
+| 技術                                                 | 說明                                      |
+| ---------------------------------------------------- | ----------------------------------------- |
+| [React 19](https://react.dev/)                       | UI 框架                                   |
+| [TypeScript](https://www.typescriptlang.org/)        | 靜態型別                                  |
+| [Vite 8](https://vite.dev/)                          | 建置工具                                  |
+| [Redux Toolkit](https://redux-toolkit.js.org/)       | 全域狀態管理                              |
+| [React Router v7](https://reactrouter.com/)          | 客戶端路由                                |
+| [Tailwind CSS v4](https://tailwindcss.com/)          | 樣式框架                                  |
+| [Google Fonts](https://fonts.google.com/)            | 字型（Nunito + Noto Sans TC）             |
+| [lz-string](https://github.com/pieroxy/lz-string)    | 分享代碼壓縮                              |
+| [vite-plugin-pwa](https://vite-pwa-org.netlify.app/) | PWA / 離線支援                            |
 | [sharp](https://sharp.pixelplumbing.com/)            | 內建圖片 PNG → WebP 壓縮（devDependency） |
-| Canvas 2D API                                        | 拼圖渲染與互動 |
-| Web Audio API                                        | 程序化音效與背景音樂合成 |
+| Canvas 2D API                                        | 拼圖渲染與互動                            |
+| Web Audio API                                        | 程序化音效與背景音樂合成                  |
 
 ---
 
